@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # RogFree
 Developed a comprehensive web application using HTML, CSS, and JavaScript to provide users with tailored yoga asanas for various ailments. This project involved creating an intuitive and user-friendly interface that guides users through different yoga poses, highlighting their benefits and proper techniques. 
 =======
@@ -59,10 +59,4 @@ Github : To save and store the files for the website. </br>
 
 <a href= "https://www.pexels.com/"> Pexels </a>: Used for stocked images.
 
-<a href= "https://ui.dev/amiresponsive"> Am I responsive? </a>: To show the website image on a range of devices.
 
-<a href ="https://hookagency.com/blog/website-color-schemes/"> Hook Agency </a>: used for picking a color scheme.
-
-</br>
-
->>>>>>> b9d505d (all files)
