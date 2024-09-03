@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    letter-spacing: 0.5px;
+    line-height: 1.8;
+}
+
+body{
+    font-size: 17px;
+    color: #16123f;
+    background-color: #f5f5f5;
+}
+
+.material-symbols-outlined{
+    font-size: 70px;
+    color: #75c9b7;
+}
+
+nav{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 7vw;
+    align-items: center;
+    background-color: #16123f;
+    color: #ffffff;
+    width: 100%;    
+    height: 62px;
+    z-index: 1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navlinks{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.navlinks li {
+    padding: 20px 15px;
+    white-space: nowrap;
+    text-align: center;
+    min-width: 130px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff;
+    position: relative;
+}
+
+.navlinks a, .navlinks a:visited {
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+
+.navlinks a:hover {
+    color: #75c9b7;
+}
+
+.dropdown {
+    position: absolute;
+}
+
+.navlinks .dropdown .dropdown-content {
+    background-color: #16123f;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    left: -40px;
+    display: none;
+}
+
+.dropdown-content a {
+    color: #ffffff;
+    padding: 12px 16px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.dropdown-content a:hover {
+    background-color: #75c9b7;
+    color: #16123f;
+}
+
+.dropdown:hover .dropdown-content {
+    display: flex;
+}
+
+.burger{
+    display: none;
+    cursor: pointer;
+}
+
+.burger div{
+    width: 26px;
+    height: 3px;
+    margin: 3px;
+    background-color: #ffffff;
+    transition: all 0.3s ease;
+}
+
+@media screen and (max-width:768px) {
+    .navlinks{
+        position: absolute;
+        right: 0px;
+        top: 80px;
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        background-color: #16123f;
+        color: #ffffff;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+    }
+
+    .navlinks li {
+        opacity: 0;
+        width: 100%;
+    }
+
+    .burger{
+        display: block; 
+    }
+}
+
+.nav-active{
+    transform: translateX(0%);
+}
+
+@keyframes navLinkFade {
+    from{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.toggle .line1{
+    transform: rotate(-45deg) translate(-1px, 5px); 
+}
+.toggle .line2{
+    opacity: 0;
+}
+.toggle .line3{
+    transform: rotate(45deg) translate(-5px, -8px);
+}
+
+.title{
+    background-image: url('../images/yoga1.jpg'), url('../images/grey.jpeg');
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 50vh;
+    color: #ffffff;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-bottom: 5px solid #75c9b7;
+}
+
+.title #mainPage {
+    margin: 20px;
+    font-size: 30px;
+}
+
+.title a{
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+
+.title .diseaseTitle {
+    margin: 20px;
+    font-size: 45px;
+    font-weight: 300;
+}
+
+.diseaseTitle p {
+    line-height: 50px;
+}
+
+.title a span:hover {
+    background-color: #75c9b7;
+    color: #ffffff;
+    border-radius: 30px;
+    padding: 5px 15px;
+    box-shadow: 0 0 12px 9px rgba(117, 201, 183, 0.5);
+}
+
+.container{
+    color: #16123F;
+    padding: 6vw;
+    width: 100%;
+    background-color: #ffffff;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 1.8;
+    font-weight: 400;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-top: -40px;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+}
+
+.intro div, .intro h3, .cure h2, .asana h2 {
+    padding-bottom: 30px;
+}
+
+.intro img {
+    display: block;
+    border: 5px solid #ffffff;
+    padding: 20px;
+    margin: 40px auto;
+    background-color: #75c9b75a;
+    max-width: 500px;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cure, .asana {
+    padding: 50px 0;
+    margin: 20px 0;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cure li, div li {
+    list-style: disc;
+    padding: 7px 0;
+    margin: 0 20px;
+}
+
+.asanaCollection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 350px;
+    height: 100%;
+    width: 100%;
+}
+
+.asanaCollection .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #ffffff;
+    border-radius: 20px;
+    margin: 10px 0;
+    padding: 20px;
+    background-color: #75c9b74e;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.box img {
+    min-width: 300px;
+    max-width: 350px;
+    width: 100%;
+    min-height: 170px;
+    height: 100%;
+    border-radius: 20px;
+    border: 5px solid #ffffff;
+}
+
+@media screen and (max-width: 480px) {
+    .box img {
+        max-width: 300px;
+        min-width: 250px;
+        width: 100%;
+    }
+}
+
+.box span {
+    font-size: 22px;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-top: 30px;
+    background-color: #75c9b7;
+    transition: all 0.3s ease-in;
+}
+
+.box span a {
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.box span:hover {
+    background-color: #ffffff;
+    color: #16123F;
+    cursor: pointer;
+}
