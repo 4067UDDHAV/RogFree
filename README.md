@@ -10,7 +10,8 @@ It acts as a simplified yoga instructor, so you can follow along at your own pac
 
 It's simple to see and use so that it can be easier for people of any age group to easily browse through the website without any hassle.
 
-![responsive](https://user-images.githubusercontent.com/98885752/189529461-f3269776-a118-41d2-b840-d21772257016.png)
+![image](https://github.com/user-attachments/assets/a5da731c-e9e6-487e-83a2-04b2f5a36af0)
+
 
 Visit the deployed site: <a href="https://devanshsahni.github.io/Rog-Free/">Rog-Free</a> 
 
@@ -58,18 +59,4 @@ Github : To save and store the files for the website. </br>
 
 </br>
 
-Github Pages was used to deploy the website: <a href="https://devanshsahni.github.io/Rog-Free/#"> Rog-Free</a>
-
-
-# Contributors
-
-Devansh Sahni :&nbsp;
-<a href= "https://github.com/DevanshSahni"> Github </a>   &nbsp;
-<a href= "https://www.linkedin.com/in/devansh-sahni-18a24121b"> LinkedIn </a>
-
-
-
-Deepa Jha : &nbsp;
-<a href= "https://github.com/Deepajha14"> Github </a> &nbsp;
-<a href= "https://www.linkedin.com/in/deepajha14/"> LinkedIn </a>
 >>>>>>> b9d505d (all files)
