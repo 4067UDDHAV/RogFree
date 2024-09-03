@@ -12,6 +12,12 @@ It's simple to see and use so that it can be easier for people of any age group 
 
 ![image](https://github.com/user-attachments/assets/a5da731c-e9e6-487e-83a2-04b2f5a36af0)
 
+![image](https://github.com/user-attachments/assets/b6551ba0-c572-4eb1-ac76-c473b04412c5)
+
+![Uploading image.png…]()
+
+
+
 
 Visit the deployed site: <a href="https://devanshsahni.github.io/Rog-Free/">Rog-Free</a> 
 
